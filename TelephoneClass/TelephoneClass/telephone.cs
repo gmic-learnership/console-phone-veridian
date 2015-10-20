@@ -33,7 +33,8 @@ namespace TelephoneClass
                          teleCode != "083" &&
                          teleCode != "069")
                         {
-                         message = "contact number can not start with" + " " + teleCode + ", " + "only this codes are allowed: 011, 012, 076, 083 and 069,please redial.";
+                         message = "contact number can not start with" + " " + teleCode + ",
+                         " + "only this codes are allowed: 011, 012, 076, 083 and 069,please redial.";
                         }
                         else
                         {
