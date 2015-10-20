@@ -7,3 +7,6 @@ C:\Users\WKomana\Documents\Visual Studio 2015\Projects\TelephoneClass\TelephoneC
 C:\Users\WKomana\Documents\CSharp\TelephoneClass\TelephoneClass\bin\Debug\TelephoneClass.exe.config
 C:\Users\WKomana\Documents\CSharp\TelephoneClass\TelephoneClass\obj\Debug\TelephoneClass.exe
 C:\Users\WKomana\Documents\CSharp\TelephoneClass\TelephoneClass\obj\Debug\TelephoneClass.pdb
+C:\Users\WKomana\Documents\CSharp\TelephoneClass\TelephoneClass\bin\Debug\TelephoneClass.exe
+C:\Users\WKomana\Documents\CSharp\TelephoneClass\TelephoneClass\bin\Debug\TelephoneClass.pdb
+C:\Users\WKomana\Documents\CSharp\TelephoneClass\TelephoneClass\obj\Debug\TelephoneClass.csprojResolveAssemblyReference.cache

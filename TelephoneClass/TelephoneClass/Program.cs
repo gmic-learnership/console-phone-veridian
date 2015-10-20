@@ -7,41 +7,34 @@ using System.Threading.Tasks;
 
 namespace TelephoneClass
 {
-    class Program
+    namespace TelephoneClass
     {
-        }
-    //instatiating a class
         class executeTelephoneclass
         {
-        //instatiating a class
-        static void Main(string[] args)
+            static void Main(string[] args)
             {
-            telephone t = new telephone();
+                telephone Telephone = new telephone();
 
-            //prompting a user to enter contact number
-            t.tele = "";
-            Console.WriteLine("Please enter contact number:");
-            t.tele = Console.ReadLine();
-
-            //removing letters from contact number
-            while (Regex.IsMatch(t.tele, "[a-zA-Z]"))
-            {
-                Console.WriteLine("the contact number must be only digits."); 
+                Telephone.tele = "";
                 Console.WriteLine("Please enter contact number:");
-               t.tele = Console.ReadLine();
-            }     
-                //calling method for removing characters                                      
-                t.tele = t.removechars() ;
+                Telephone.tele = Console.ReadLine();
 
-            string msg = "";
-            //calling method for counting digits and accepting codes
-            msg = t.Count(t.tele);
-            Console.WriteLine(msg);
+                while (Regex.IsMatch(Telephone.tele, "[a-zA-Z]"))
+                {
+                    Console.WriteLine("the contact number must be only digits.");
+                    Console.WriteLine("Please enter contact number:");
+                    Telephone.tele = Console.ReadLine();
+                }
+                Telephone.tele = Telephone.removechars();
 
-            //methods for retrieving stored contacts
-            //t.contacts(t.tele);            
-            msg=t.contacts(t.tele);
-            Console.ReadKey();
+                string msg = "";
+                msg = Telephone.Count(Telephone.tele);
+                Console.WriteLine(msg);
+
+
+                Telephone.contacts(Telephone.tele);
+                Console.ReadKey();
             }
         }
     }
+}
