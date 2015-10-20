@@ -12,8 +12,6 @@ namespace TelephoneClass
         //declaring variables
         public string tele;
         public string message;
-
-        //method for removing characters in contact number
         public string removechars()
         {
 
@@ -32,8 +30,6 @@ namespace TelephoneClass
 
                 one = tele.Replace(" ", "");
                 tele = one;
-
-
             }
 
             return tele;
@@ -64,7 +60,7 @@ namespace TelephoneClass
             return message;
         }
 
-        //method for storing contacts
+     
 
         public string contacts(string tele)
         {
