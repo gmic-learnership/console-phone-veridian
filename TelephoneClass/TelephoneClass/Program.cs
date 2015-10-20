@@ -26,12 +26,9 @@ namespace TelephoneClass
                     Telephone.tele = Console.ReadLine();
                 }
                 Telephone.tele = Telephone.removechars();
-
                 string msg = "";
                 msg = Telephone.Count(Telephone.tele);
                 Console.WriteLine(msg);
-
-
                 Telephone.contacts(Telephone.tele);
                 Console.ReadKey();
             }

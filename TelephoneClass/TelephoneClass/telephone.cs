@@ -10,9 +10,9 @@ namespace TelephoneClass
     class telephone
     {        
         public string tele;
-        public string message;        
-        
-  public string removechars()
+        public string message;
+                
+        public string removechars()
         {
             tele = tele.Replace("(", "");
             tele = tele.Replace(")", "");
@@ -32,13 +32,13 @@ namespace TelephoneClass
                          teleCode != "076" &&
                          teleCode != "083" &&
                          teleCode != "069")
-                 {
-                message = "contact number can not start with" + " " + teleCode + ", " + "only this codes are allowed: 011, 012, 076, 083 and 069,please redial.";
-                 }
-                else
-                 {
-                message = "The telephone number you are calling is: " + tele + " calling.";
-                 }
+                        {
+                         message = "contact number can not start with" + " " + teleCode + ", " + "only this codes are allowed: 011, 012, 076, 083 and 069,please redial.";
+                        }
+                        else
+                        {
+                        message = "The telephone number you are calling is: " + tele + " calling.";
+                        }
             return message;
         }
         public void contacts(string tele)
